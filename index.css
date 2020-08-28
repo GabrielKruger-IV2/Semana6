@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Alata', sans-serif;
+}
+
+.body {
+    background-image: url("https://cdn.pixabay.com/photo/2016/05/30/22/05/background-1425880_960_720.jpg");
+    background-repeat: repeat;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+
+}
+
+.cabeçalho {
+    padding: 1vh;
+    background-color: grey;
+    border: 1px solid #000000
+}
+
+.menu {
+
+    float: right;
+    margin-right: 1vw;
+
+}
+
+.menu ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    margin-top: 0.5vh;
+}
+
+.menu ul li {
+    display: inline;
+    margin-right: 1vw;
+
+
+}
+
+.linkMenu {
+    text-decoration: none;
+    color: black;
+    font-size: 1.25em;
+    margin: 5px;
+}
+
+.linkMenu:hover {
+    color: rgb(252, 252, 252);
+}
+
+.linkMenu:active {
+    color: rgb(0, 218, 0);
+}
+
+.linkMenuAtual {
+    color: rgb(0, 0, 0);
+
+    font-size: 1.25em;
+    margin: 5px;
+}
+
+.linkMenuAtual:hover {
+    color: rgb(252, 252, 252);
+}
+
+.linkMenuAtual:active {
+    color: rgb(0, 218, 0);
+}
+
+.rodape {
+    position: fixed;
+    bottom: 0;
+    background-color: grey;
+    width: 100%;
+    height: 32px;
+    display: flex;
+    text-align: center;
+
+
+}
+
+footer a {
+    margin-left: 30vw;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    margin-top: 1vh;
+}
+
+footer a:hover {
+
+    color: white;
+}
+
+footer a:active {
+    color: rgb(0, 218, 0);
+}
+
+footer p {
+    margin-left: 0.5vw;
+    margin-top: 1vh;
+}
+
+/*-------------------------Fim do css Padrão--------------------------*/
+
+.section {
+    display: flex;
+    padding-top: 7vh;
+    width: 100%;
+    
+}
+
+.divPai {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+}
+
+
+
+.div {
+    background-color: rgb(161, 161, 161);
+    margin: 30px;
+    width: 20vw;
+    text-align: center;
+    border-radius: 20px;
+    border: 2px solid #000000;
+
+}
+
+.h3 {
+    color: rgb(0, 0, 0);
+}
+.data{
+    color: rgb(35, 87, 0);
+}
+
+.time{
+    color: rgb(27, 0, 148);
+
+}
+.utc{
+    color: rgb(161, 0, 0);
+}
